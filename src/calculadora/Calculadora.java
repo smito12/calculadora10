@@ -42,7 +42,11 @@ public class Calculadora {
         return Math.pow(a, b);
     }
     
-    string sms(string sms){
+    String sms(String sms){
         return "*" + sms + "*";
+    }
+    float areatrapecio(float B,float b,float h){
+    return ((B + b)/2)*h;
+  
     }
 }
